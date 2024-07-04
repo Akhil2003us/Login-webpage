@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #56e41d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.box {
+    background-color: #72e8e8;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #6e0b96;
+    font-weight: bold;
+}
+
+.header a.active {
+    color: #007BFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content form {
+    display: none;
+    width: 100%;
+}
+
+.content form.active {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#check {
+    text-align: left;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-email-box {
+    border: 1px solid #ffc6c6;
+    padding: 20px;
+    width: 80%;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #322626;
+    text-align: center;
+}
+
+.footer-email-box h4 {
+    margin-bottom: 10px;
+}
+
+.footer-email-box .form-control {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #822929;
+    border-radius: 4px;
+}
+
+.footer-email-box input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-email-box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #888;
+}
+
+.foot-email-subscribe {
+    margin-left: 10px;
+}
