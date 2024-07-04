@@ -104,54 +104,77 @@ a {
     margin-top: 10px;
 }
 
-.footer {
-    margin-top: 20px;
+  
+  /* Styling for footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-email-box {
-    border: 1px solid #ffc6c6;
-    padding: 20px;
-    width: 80%;
-    margin: 20px 0;
-    border-radius: 8px;
-    background-color: #322626;
+  }
+  
+  .single-footer-widget {
     text-align: center;
-}
-
-.footer-email-box h4 {
-    margin-bottom: 10px;
-}
-
-.footer-email-box .form-control {
-    width: 70%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #822929;
-    border-radius: 4px;
-}
-
-.footer-email-box input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #007BFF;
+  }
+  
+  .footer-copyright {
+    margin-bottom: 5px;
+  }
+  
+  .hm-foot-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot-email-box {
+    margin-right: 10px;
+  }
+  
+  .foot-email-box h5 {
+    margin-bottom:5px;
+    color: #fff;
+  }
+  
+  .foot-email-box input[type="email"] {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .foot-email-box input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-}
-
-.footer-email-box input[type="submit"]:hover {
+    border-radius: 5px;
+  }
+  
+  .foot-email-box input[type="submit"]:hover {
     background-color: #0056b3;
-}
-
-.footer p {
-    font-size: 12px;
-    color: #888;
-}
-
-.foot-email-subscribe {
-    margin-left: 10px;
-}
+  }
+  
+  .foot-email-subscribe {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  
+  .foot-email-subscribe span {
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 500px) {
+    .buttons button {
+      font-size: 0.8em;
+    }
+    
+    .foot-email-box input[type="email"] {
+      width: 100px;
+    }
+  }
+  
